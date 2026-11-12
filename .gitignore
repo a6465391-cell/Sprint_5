@@ -1,0 +1,37 @@
+# Виртуальные окружения 
+venv/
+.venv/
+env/
+virtualenv/
+
+# Кэш 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Настройки редактора
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Папки, которые создаются при упаковке проекта
+build/
+*.egg-info/
+
+# Файлы с секретами 
+.env
+secrets.json
+config/local.json
+credentials.txt
+
+
+# Отчёты о тестах, логи ошибок
+*.log
+tmp/
+temp/
+
+# Файлы операционной системы 
+.DS_Store
+Thumbs.db
